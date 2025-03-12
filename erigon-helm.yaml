@@ -15,7 +15,7 @@ spec:
         image:
           tag: "v2.61.3"
         extraArgs:
-          - --chain=sepolia
+          - --chain=holesky
   destination:
     server: "https://kubernetes.default.svc"
     namespace: default
